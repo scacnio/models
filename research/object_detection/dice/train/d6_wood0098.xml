@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>d6_wood0098.jpg</filename>
+	<path>C:\Users\samca\Projects\TF2\models-master\research\object_detection\dice\train\d6_wood0098.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>141</ymin>
+			<xmax>368</xmax>
+			<ymax>357</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_7285.jpeg</filename>
+	<path>C:\Users\samca\Projects\TF2\models-master\research\object_detection\dice\train\IMG_7285.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1192</xmin>
+			<ymin>2406</ymin>
+			<xmax>1648</xmax>
+			<ymax>2772</ymax>
+		</bndbox>
+	</object>
+</annotation>

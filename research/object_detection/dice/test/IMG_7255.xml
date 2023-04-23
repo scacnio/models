@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>IMG_7255.jpeg</filename>
+	<path>C:\Users\samca\Projects\TF2\models-master\research\object_detection\dice\test\IMG_7255.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>2</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>3072</ymin>
+			<xmax>1279</xmax>
+			<ymax>3850</ymax>
+		</bndbox>
+	</object>
+</annotation>
