@@ -86,4 +86,4 @@ if __name__ == '__main__':
     cap = cv2.VideoCapture(0)
     run_inference(detection_model, category_index, cap)
 
-# python detect_from_webcam.py -m <SAVED_MODEL_PATH> -l data/<LABELS_PATH>
+# python detect_from_webcam.py -m ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8\saved_model -l data\mscoco_label_map.pbtxt
