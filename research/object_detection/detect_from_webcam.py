@@ -83,7 +83,7 @@ if __name__ == '__main__':
     detection_model = load_model(args.model)
     category_index = label_map_util.create_category_index_from_labelmap(args.labelmap, use_display_name=True)
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     run_inference(detection_model, category_index, cap)
 
 # python detect_from_webcam.py -m ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/saved_model -l data/mscoco_label_map.pbtxt
