@@ -127,5 +127,5 @@ if __name__ == '__main__':
     tf.app.run()
 
 # commands:
-# python generate_tfrecord.py --csv_input=dice/test_labels.csv --image_dir=dice/test --output_path=test.record
-# python generate_tfrecord.py --csv_input=dice/train_labels.csv --image_dir=dice/train --output_path=train.record
+# python generate_tfrecord.py --csv_input=DICE/test_labels.csv --image_dir=DICE/test --output_path=test.record
+# python generate_tfrecord.py --csv_input=DICE/train_labels.csv --image_dir=DICE/train --output_path=train.record
