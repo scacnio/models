@@ -120,7 +120,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>3</name>
+		<name>three</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
