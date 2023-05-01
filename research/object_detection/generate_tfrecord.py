@@ -32,31 +32,31 @@ Make sure to edit this method to match the labels you made with labelImg!
 '''
 def class_text_to_int(row_label):
     row_label = str(row_label)
-    if row_label == '0':
+    if row_label == 'zero':
         return 1
-    elif row_label == '1':
+    elif row_label == 'one':
         return 2
-    elif row_label == '2':
+    elif row_label == 'two':
         return 3
-    elif row_label == '3':
+    elif row_label == 'three':
         return 4
-    elif row_label == '4':
+    elif row_label == 'four':
         return 5
-    elif row_label == '5':
+    elif row_label == 'five':
         return 6
-    elif row_label == '6':
+    elif row_label == 'six':
         return 7
-    elif row_label == '7':
+    elif row_label == 'seven':
         return 8
-    elif row_label == '8':
+    elif row_label == 'eight':
         return 9
-    elif row_label == '9':
+    elif row_label == 'nine':
         return 10
-    elif row_label == '10':
+    elif row_label == 'ten':
         return 11
-    elif row_label == '11':
+    elif row_label == 'eleven':
         return 12
-    elif row_label == '12':
+    elif row_label == 'twelve':
         return 13
     else:
         return None
