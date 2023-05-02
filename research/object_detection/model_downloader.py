@@ -1,8 +1,8 @@
 #copied from https://github.com/BenGreenfield825
 import wget
-model_link = "http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz"
+model_link = ""
 wget.download(model_link)
 import tarfile
-tar = tarfile.open('ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz')
+tar = tarfile.open('')
 tar.extractall('.')
 tar.close()

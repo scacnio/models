@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-# HNRS command: python exporter_main_v2.py --trained_checkpoint_dir=HNRS_training --pipeline_config_path=ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config --output_directory=HNRS_inference
+# HNRS command: python exporter_main_v2.py --trained_checkpoint_dir=HNRS_training --pipeline_config_path=<PATH> --output_directory=HNRS_inference
 
 r"""Tool to export an object detection model for inference.
 
