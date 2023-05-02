@@ -134,4 +134,4 @@ if __name__ == '__main__':
     run_inference(detection_model, category_index, args.image_path)
 
 # Command to start script
-#  python .\detect_from_images.py -m <SAVED_MODEL_PATH> -l <LABELS_PATH> -i <TEST_IMAGE_PATH>
+# python detect_from_images.py -m HNRS_inference/saved_model -l data/dice_label_map.pbtxt -i test_images/dice
