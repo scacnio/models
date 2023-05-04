@@ -86,5 +86,5 @@ if __name__ == '__main__':
     cap = cv2.VideoCapture(1)
     run_inference(detection_model, category_index, cap)
 
-# python detect_from_webcam.py -m ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/saved_model -l data/mscoco_label_map.pbtxt
+# python detect_from_webcam.py -m efficientdet_d4_coco17_tpu-32/saved_model -l data/mscoco_label_map.pbtxt
 # HNRS command: python detect_from_webcam.py -m HNRS_inference/saved_model -l data/dice_label_map.pbtxt
