@@ -30,7 +30,7 @@ FLAGS = flags.FLAGS
 Make sure to edit this method to match the labels you made with labelImg!
 *************************************************************************
 '''
-def class_text_to_int(row_label):
+def class_text_to_int(row_label): #TODO: adjust labels
     row_label = str(row_label)
     if row_label == 'zero':
         return 1
