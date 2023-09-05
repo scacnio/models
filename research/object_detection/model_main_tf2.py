@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-# HNRS command: python model_main_tf2.py --model_dir=HNRS_training2 --pipeline_config_path=ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config --alsologtostderr
+# HNRS command: python model_main_tf2.py --model_dir=<trained_model_dir> --pipeline_config_path=<model_config_path> --alsologtostderr
 
 r"""Creates and runs TF2 object detection models.
 

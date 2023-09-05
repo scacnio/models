@@ -133,5 +133,5 @@ if __name__ == '__main__':
 
     run_inference(detection_model, category_index, args.image_path)
 
-# Command to start script
-# python detect_from_images.py -m HNRS_inference/saved_model -l data/dice_label_map.pbtxt -i test_images/dice
+# Command to start script (with sample data/model)
+# python detect_from_images.py -m ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/saved_model -l data/mscoco_label_map.pbtxt -i test_images
